@@ -47,3 +47,31 @@ header h1 {
 	margin: 8px;
 	padding: 8px; 	
 }
+
+* forms */
+input[type=text], input[type=password] {
+	margin: 5px 0 20px 0;
+	padding: 10px;
+	width: 80%;	
+}
+
+input[type=text]:focus, input[type=password]:focus {
+	background-color: #FFF5EE;
+}
+
+.container {
+	box-sizing: border-box;
+	margin: auto;
+	overflow: hidden;
+	padding: 16px;
+	width: 80%
+}
+
+/* footer */
+footer {
+	background-color: #FF00FB;
+	color: white;
+	margin-top: 10px;
+	padding: 0;
+	text-align: center;
+}
