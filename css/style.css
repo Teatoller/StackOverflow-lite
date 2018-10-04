@@ -1,0 +1,49 @@
+header {
+	background: purple;
+	border: white 1px solid;
+	display: block;
+	padding-top: 8px;
+	min-height: 20px;
+}
+
+header h1 {
+	text-align: left;
+	color:white;
+}
+
+.containernav a {
+	float: left;
+	color: white;
+	display: block;
+	font-size: 16px;
+	padding: 8px;
+	text-decoration: none;	
+}
+
+.containernav a:hover {
+	background: blue;
+	color: white;
+}
+
+.containernav a:active {
+	background: green;
+	color: white;
+}
+
+.containernav .nav-search {
+	float:center;	
+}
+.containernav input[type=text] {
+	padding: 8px;
+	margin-top: 8px;
+	font-size: 16px;
+	border: none;	
+}
+
+.containernav .nav-search button {
+	float:center;
+	border: none;
+	font-size: 16px;
+	margin: 8px;
+	padding: 8px; 	
+}
